@@ -1,0 +1,33 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+header {
+    border-bottom: 2px solid black;
+    padding: 20px 0;
+}
+
+header .title, header nav {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+header .title a {
+   font-size: 2em;
+   text-decoration: none;
+   font-weight: 700;
+   color: black;
+
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+header nav ul li a {
+
+  text-decoration: none;
+  color: green;
+}
