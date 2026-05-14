@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    padding: 5em 15em;
+}
+
+h2 {
+    padding-bottom: 1em;
+}
+
+/* Cards Masonry */
+
+.cards-masonry {
+    column-count: 3;
+    column-gap: 30px;
+    margin-bottom: 80px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+}
+
+.card-masonry {
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+    break-inside: avoid;
+    margin-bottom: 30px;
+}
+
+.cards-masonry section, .cards-masonry footer {
+    background-color: #fff;
+    padding: 1.5em 1em;
+}
+
+.cards-masonry footer {
+    border-top: 1px solid grey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+
+/* Cards Flex */
+
+.cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.card {
+    display: flex; 
+    flex-direction: column;
+    max-width: 240px;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+} 
+
+.cards-flex section {
+    flex-grow: 1;
+}
+
+.cards-flex section, .cards-flex footer {
+    background-color: #fff;
+    padding: 1.5em 1em;
+}
+
+.card footer {
+    background-color: #fff;
+    border-top: 1px solid grey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    padding: 1em;
+} 

@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+	font-family: Helvetica, sans-serif;
+}
+
+header {
+    padding: 10px;
+    border-bottom: 3px solid #000; /* Optional border for header */
+}
+
+header h1 {
+	text-transform: uppercase;
+}
+
+main {
+    flex: 1; /* This makes the main content area expand to take available space */
+    padding: 20px;
+}
+
+main h2, main p {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
