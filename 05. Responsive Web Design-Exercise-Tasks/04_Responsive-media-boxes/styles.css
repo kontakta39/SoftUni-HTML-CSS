@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+	height: 100vh;
+	font-family: Helvetica, sans-serif;
+}
+
+body {
+   background-color: rgb(238, 238, 238);
+   display: flex;
+   align-items: center;
+   margin-left: 5em;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	width: 500px; /* Set a fixed width or adjust as needed */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-container img {
+	width: 100%;
+	display: block;
+}
+
+.card {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	padding: 10px 20px 40px 10px;
+	gap: 1em;
+}
+
+h3 {
+	font: 1em/1.2 Georgia, serif;
+	font-weight: 700;
+	padding: 10px 20px 0px 20px;
+}
+
+p {
+    padding: 0px 20px;
+}
+
+a {
+    align-self: flex-end; /* Moves the only the a element to the end of the flex container */
+    padding: 10px 15px;
+    background-color: rgb(0, 153, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+    body {
+		margin-left: 5em;
+    }
+    section {
+        width: 80%; /* Adjust section width for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+		margin-left: 4em;
+    }
+    section {
+        width: 70%; /* Adjust section width for smaller screens */
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+		margin-left: 3em;
+    }
+    section {
+        width: 60%; /* Adjust section width for smaller screens */
+    }
+}
+
+@media (max-width: 200px) {
+    body {
+		margin-left: 2em;
+    }
+    section {
+        width: 50%; /* Adjust section width for smaller screens */
+    }
+}
+
+@media (max-width: 100px) {
+    body {
+		margin-left: 1em;
+    }
+
+    section {
+        width: 50%; /* Adjust section width for smaller screens */
+    }
+}
