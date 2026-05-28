@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Margarine', sans-serif;
+}
+
+body {
+    background-color: #fff0e4;
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    padding: 2em;
+    justify-content: center;
+}
+
+.personal-info-skills {
+    background-color: #fff0e4;
+    width: 30%;
+    height: 550px;
+    padding: 0.7em 1em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
+    -5px -5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.personal-info-skills h1 {
+    margin-bottom: 1em;
+}
+
+.personal-info-skills ul {
+    list-style-type: none;
+}
+
+.personal-info-skills ul li {
+    margin-bottom: 0.8em;
+}
+
+.personal-info-skills ul li i {
+    padding-right: 1em;
+    color: #2991e6;
+}
+
+.personal-info-skills hr {
+    border: 1px solid #66605b;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+}
+
+.personal-info-skills div, .personal-info-skills p {
+    margin-bottom: 0.9em;
+}
+
+.personal-info-skills div {
+    background-color: #2991e6;
+    border-radius: 10px;
+}
+
+.personal-info-skills #first-skill-percentage {
+    width: 92%;
+}
+
+.personal-info-skills #second-skill-percentage {
+    width: 80%;
+}
+
+.personal-info-skills #third-skill-percentage {
+    width: 72%;
+}
+
+.personal-info-skills #fourth-skill-percentage {
+    width: 55%;
+}
+
+.personal-info-skills div p {
+    text-align: center;
+    color: #fff;
+}
+
+.work-experience {
+    background-color: #fff0e4;
+    width: 60%;
+    height: 550px;
+    padding: 3em 2em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
+    -5px -5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.work-experience h1 {
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.work-experience h3, .work-experience p{
+    margin-bottom: 0.6em;
+}
+
+.work-experience h3 {
+    color: #66605b;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.work-experience .date {
+    color: #2991e6;
+}
+
+.work-experience hr {
+    border: 1px solid #66605b;
+    margin-bottom: 0.8em;
+}

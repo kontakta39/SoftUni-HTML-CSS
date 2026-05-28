@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Playwrite PE', sans-serif;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    gap: 3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+header nav ul, footer nav ul  { 
+    display: flex;
+    list-style-type: none;
+    gap: 2em;
+    font-weight: bold;
+    color: #314584;
+}
+
+header nav ul li:first-child {
+    color: #ff3946; 
+}
+
+header .header-button {
+    padding: 1em 3em;
+    border: 3px solid #ff3946;
+    background-color: #f0f0f0;
+    border-top-left-radius: 10px 4px;
+    border-top-right-radius: 10px 4px;
+    border-bottom-right-radius: 10px 4px;
+    border-bottom-left-radius: 10px 4px;
+    text-decoration: none;
+    color: #314584;
+    font-weight: bold;
+}
+
+.banner {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .banner-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.banner .banner-text h1 {
+    font-size: 60px;
+    color: #314584;
+    margin-bottom: 0.2em;
+}
+
+.banner .banner-text p {
+    color: #6e757a;
+    margin-bottom: 2em;
+}
+
+.banner .banner-text .banner-buttons {
+    display: flex;
+    gap: 2em;
+}
+
+.banner .banner-text .banner-buttons #banner-button-one, 
+.banner .banner-text .banner-buttons #banner-button-two {
+    padding: 1em 2em;
+    background-color: #fff;
+    font-weight: bold;
+    color: #314584;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
+    -5px -5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.banner .banner-text .banner-buttons #banner-button-one {
+    background-color: #ff3946;
+    color: #fff;
+}
+
+.banner .banner-image {
+    margin-left: -30px;
+}
+
+.banner .banner-image img {
+    width: 600px;
+}
+
+main .article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    margin: 1em;
+    border: 1px solid #ebecec;
+    box-shadow: 0.3em 0.3em 1em rgba(130, 130, 130, 0.2);
+    position: relative;
+}
+
+main .article .article-image {
+    width: 20%;
+}
+
+main .article img {
+    width: 250px;
+    margin-bottom: 2em;
+}
+
+main .article h3{
+    color: #314584;
+    text-align: center;
+}
+
+main .article p {
+    color: #314584;
+    font-size: 14px;
+}
+
+main #bubble {
+    width: 270px;
+    position: absolute;
+    top: 1010px;
+    left: -75px;
+    z-index: 1;
+}
+
+main #bubble-one {
+    width: 270px;
+    position: absolute;
+    top: 1460px;
+    right: -80px;
+    z-index: 1;
+}
+
+main .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em 0 0 0;
+}
+
+main .about img {
+    width: 350px;
+    margin-bottom: 5em;
+}
+
+main .about .p-style {
+    color: #ff3946;
+    font-weight: 500;
+    margin-bottom: 0.8em;
+}
+
+main .about .h3-style {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #314584;
+}
+
+main .about #paragraph-padding {
+    text-align: center;
+    padding: 0 16em;
+    color: #314584;
+    margin-bottom: 5em;
+}
+
+main .about form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+main .about form .form-element {
+    width: 80%;
+    padding: 1em;
+    background-color: #314584;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+
+main .about form .form-element::placeholder {
+    font-family: 'Playwrite PE', sans-serif;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+main .about form .textarea-element {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+footer {
+    height: 180px;
+    background-color: #314584;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav ul {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.5em;
+}
