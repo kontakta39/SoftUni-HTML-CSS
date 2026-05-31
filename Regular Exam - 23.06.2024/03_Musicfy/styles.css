@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+header #logo {
+    width: 120px;
+    height: auto;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    padding-right: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #1db954;
+    padding: 50px 0 180px 0;
+    position: relative;
+    z-index: 0;
+}
+
+main .title span {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+main .title #music {
+    width: 595px;   
+    height: auto;
+    position: absolute;
+    top: 55px;       
+    left: 0;      
+}
+
+main .pricing-plans {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: -9.5em;
+    margin-bottom: 10em;
+    z-index: 1;
+}
+
+main .pricing-plans .pricing-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 29.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+main .pricing-plans .pricing-plan h3 {
+    font-size: 23px;
+    color: #54546d;
+    padding: 0.5em 0 1.5em 0;
+}
+
+main .pricing-plans .pricing-plan ul {
+    list-style: none;
+    color: #54546d;
+}
+
+main .pricing-plans .pricing-plan ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 0 20px 15px 30px;
+}
+
+main .pricing-plans .pricing-plan ul li::before {
+    content: "○";
+}
+
+main .pricing-plans .pricing-plan ul li:last-child {
+    padding-bottom: 0;
+}
+
+main .pricing-plans .pricing-plan a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    background-color: #1db954;
+    padding: 0.6em 2em;
+    margin: 20px 0 20px 0;
+    border-radius: 20px;
+}
+
+main .pricing-plans .pricing-plan .plan-price {
+    text-align: center;
+    width: 100%;
+    font-size: 17.5px;
+    background-color: #191414;
+    color: white;
+    padding: 0.75em 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main .pricing-plans .pricing-plan:first-child .plan-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+main .pricing-plans .pricing-plan:first-child .plan-price span {
+    display: flex;
+    align-items: center;
+}
+
+main .pricing-plans .pricing-plan:first-child .plan-price span:first-child::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 30px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+main .pricing-info {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5em;
+} 
+
+main .pricing-info #dogopal {
+    width: 300px;
+    height: auto;
+}
+
+main .pricing-info .pricing-info-section {
+    width: 62.4%;
+    margin: 0 5em 0 3em;
+}
+
+main .pricing-info .pricing-info-section h4 {
+    font-size: 20px;
+    padding-bottom: 1em;
+}
+
+main .pricing-info .pricing-info-section ol {
+    list-style-position: inside;
+}
+
+main .pricing-info .pricing-info-section ol li {
+    padding-bottom: 1em;
+}
+
+main .premium-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6em;
+}
+
+main .premium-features h1 {
+    padding-bottom: 1em;
+}
+
+main .premium-features p {
+    padding-bottom: 2em;
+}
+
+main .premium-features table {
+    width: 70%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+main .premium-features td:nth-child(1) {
+    width: 70%;
+    padding-left: 1em;
+}
+
+main .premium-features td:nth-child(2) {
+    width: 13%;
+}
+
+main .premium-features td:nth-child(3) {
+    width: 10%;
+}
+
+main .premium-features tr:nth-child(odd) {
+    background-color: #cccbcb;
+
+}
+
+main .premium-features tr:nth-child(even) {
+    background-color: #81d8a0;
+}
+
+main .premium-features tr td {
+    padding: 0.7em 0 0.7em 0;
+}
+
+main .premium-features tr .check-icon, .cross-icon {
+    width: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #191414;
+    color: white;
+    padding: 2em 0 2em 0;
+}
