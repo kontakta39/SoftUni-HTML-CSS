@@ -24,13 +24,11 @@ Throughout the course, I gained practical experience in:
 
 The repository is organized into topic-based folders, each containing exercises related to a specific concept:
 
-```bash id="p2kq9m"
 /01-Introduction-to-HTML-CSS
 /02-Typography
 /03-Box-Model-and-Position
 /04-Flexbox
 /05-Responsive-Web-Design
-```
 
 ---
 
@@ -45,4 +43,4 @@ The repository is organized into topic-based folders, each containing exercises 
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the [*LICENSE*](LICENSE) file for details.
+This project is licensed under the Apache License 2.0. See the [*LICENSE*](LICENSE) file for details.
