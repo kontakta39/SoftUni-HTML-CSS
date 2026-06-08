@@ -25,9 +25,13 @@ Throughout the course, I gained practical experience in:
 The repository is organized into topic-based folders, each containing exercises related to a specific concept:
 
 /01-Introduction-to-HTML-CSS
+
 /02-Typography
+
 /03-Box-Model-and-Position
+
 /04-Flexbox
+
 /05-Responsive-Web-Design
 
 ---
