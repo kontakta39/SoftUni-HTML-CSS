@@ -1,4 +1,4 @@
-# 🎓 HTML & CSS – SoftUni Course Portfolio (January 2024)
+# 🎓 HTML & CSS Frontend Portfolio
 
 ## 📌 Overview
 
